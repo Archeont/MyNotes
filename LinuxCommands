@@ -1,0 +1,3 @@
+mkdir dirname  # make directory
+rm file  # remove file
+rm -r  # remove folder recursively 
