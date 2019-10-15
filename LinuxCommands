@@ -1,5 +1,9 @@
+cd ..  # one directory behind
 mkdir dirname  # make directory
 rm file  # remove file
 rm -r  # remove folder recursively 
 virtualenv --python=python3 firstEnv  # install virtualenv on linux
 source firstEnv/bin/activate  # activate virtualenv
+django-admin startproject project_name  # create a project
+python manage.py runserver  # run server on localhost
+python manage.py startapp myApp  # create app in django
